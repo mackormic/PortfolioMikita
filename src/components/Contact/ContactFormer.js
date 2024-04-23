@@ -55,7 +55,7 @@ export default function ContactFormer() {
       data: inputs,
     })
       .then((response) => {
-        handleServerResponse(true, "Спасибо, Ваше письмо отправлено");
+        handleServerResponse(true, "Спасибо, ваша заявка улетела");
       })
       .catch((error) => {
         handleServerResponse(false, error.response.data.error);
@@ -67,10 +67,10 @@ export default function ContactFormer() {
         onSubmit={handleOnSubmit}
         className="mt-12 text-base xs:text-lg sm:text-xl font-medium leading-relaxed font-in"
       >
-        Hello! My name is{" "}
+        Добрый день! Меня зовут{" "}
         <input
           onChange={handleOnChange}
-          placeholder="your name"
+          placeholder="ваше имя"
           id="name"
           type="text"
           required
@@ -79,20 +79,21 @@ export default function ContactFormer() {
         focus:ring-0 placeholder:text-center placeholder:text-lg 
         border-b border-gray focus:border-gray bg-transparent"
         />
-        and I want to discuss a potancial project. You can email me at{" "}
+        и я бы хотел(а) организовать в нашей компании семинар/обучение/вебинар
+        по вопросам антикоррупционной работы. Наша контактная почта{" "}
         <input
           onChange={handleOnChange}
           id="email"
           type="email"
-          placeholder="your@email"
+          placeholder="ваша почта"
           className="outline-none border-0 p-0 mx-2 
         focus:ring-0 placeholder:text-center placeholder:text-lg 
         border-b border-gray focus:border-gray bg-transparent"
         />
-        or reach out to me on
+        и мой телефон для связи
         <input
           onChange={handleOnChange}
-          placeholder="your phone"
+          placeholder="ваш телефон"
           id="phone"
           type="phone"
           name="_replyto"
@@ -102,14 +103,14 @@ export default function ContactFormer() {
         focus:ring-0 placeholder:text-center placeholder:text-lg 
         border-b border-gray focus:border-gray bg-transparent"
         />
-        here are some details about my project: <br />
+        А тут краткое описание планируемой встречи: <br />
         <textarea
           onChange={handleOnChange}
           id="message"
           name="message"
           required
           value={inputs.message}
-          placeholder="My project is about..."
+          placeholder="Тема, дата, вопросы, да все что угодно..."
           className=" w-full outline-none border-0 p-0 mx-2 
         focus:ring-0  placeholder:text-lg 
         border-b border-gray focus:border-gray bg-transparent"
@@ -119,7 +120,7 @@ export default function ContactFormer() {
         py-2 sm:py-3 px-6 sm:px-8 border-2 border-solid border-dark
         dark:border-light rounded cursor-pointer"
           type="submit"
-          value="send request"
+          value="Отправить заявку"
           disabled={status.submitting}
         />
       </form>

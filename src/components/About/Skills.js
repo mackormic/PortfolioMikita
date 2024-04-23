@@ -1,19 +1,16 @@
 import React from "react";
 
 const SkillList = [
-  "next.js",
-  "tailwind css",
-  "figma",
-  "javaScript",
-  "web design",
-  "Gatsby.js",
-  "strapi",
-  "firebase",
-  "generative AI",
-  "wireframing",
-  "SEO",
-  "framer motion",
-  "sanity",
+  "ISO 37001",
+  "обязательства",
+  "ГДЛ неГДЛ",
+  "коррупционные нарушения",
+  "антикоррупционная работа",
+  "антикоррупционные комиссии",
+  "коррупционные риски",
+  "закупки",
+  "борьба со взяточничесвом",
+  "к вам идет проверка",
 ];
 
 const Skills = () => {
@@ -23,7 +20,7 @@ const Skills = () => {
     text-dark dark:text-light"
     >
       <span className="font-semibold text-lg sm:text-3xl md:text-4xl text-accent dark:text-accentDark">
-        I'm comfortable in...
+        Консультирую в сфере ...
       </span>
       <ul className="flex flex-wrap mt-8 justify-center  xs:justify-start">
         {SkillList.map((skill, index) => {

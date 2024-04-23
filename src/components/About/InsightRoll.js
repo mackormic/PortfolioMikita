@@ -4,7 +4,7 @@ const InsightRoll = ({ insights }) => {
   return (
     <div className="w-full bg-accent dark:bg-accentDark dark:text-dark text-light whitespace-nowrap overflow-hidden">
       <div
-        className="animate-roll w-full py-2 sm:py-3 flex items-center justify-center capitalize font-semibold
+        className="animate-roll w-full py-2 sm:py-3 flex items-center justify-center  font-semibold
       tracking-wider text-sm sm:text-base
       "
       >

@@ -18,11 +18,11 @@ export default function About() {
       text-lg md:text-2xl self-start mx-5 xs:mx-10 sm:mx-12 md:mx-16 lg:mx-20 text-dark
        dark:text-light dark:font-normal"
       >
-        Have a project in mind? Reach out to me 📞 from{" "}
+        Есть вопросы? Можете связаться со мной 📞{" "}
         <Link className="!underline underline-offset-2" href="/contact">
-          here
+          здесь.
         </Link>{" "}
-        and let's make it happen.
+        И если не победим,то возглавим.
       </h2>
     </>
   );

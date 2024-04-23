@@ -69,7 +69,7 @@ export default function BlogPage({ params }) {
             link={`/categories/${slug(blog.tags[0])}`}
             className="px-6 taxt-sm py-2"
           />
-          <h1 className="inline-block mt-6 font-semibold capitalize text-light text-2xl md:text-3xl lg:text-5xl !leading-normal relative w-5/6">
+          <h1 className="inline-block mt-6 font-semibold  text-light text-2xl md:text-3xl lg:text-5xl !leading-normal relative w-5/6">
             {blog.title}
           </h1>
         </div>
@@ -89,7 +89,7 @@ export default function BlogPage({ params }) {
         <div className="col-span-12 lg:col-span-4">
           <details className="border-[1px] border-solid border-dark dark:border-light dark:text-light text-dark rounded-lg sticky top-6 p-4 max-h-[80vh] overflow-hidden overflow-y-auto">
             <summary className="text-lg font-semibold capitalize cursor-pointer">
-              Table of Content
+              Краткое содержание
             </summary>
             <ul className="mt-4 font-in text-base">
               {blog.toc.map((heading) => {
