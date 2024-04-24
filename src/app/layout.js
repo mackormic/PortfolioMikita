@@ -4,7 +4,6 @@ import { Inter, Manrope } from "next/font/google";
 import Header from "@/src/components/Header";
 import Footer from "../components/Footer/Index";
 import siteMetadata from "../utils/siteMetadata";
-import Script from "next/script";
 
 const inter = Inter({
   subsets: ["latin"],

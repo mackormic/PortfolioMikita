@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import profileImage from "@/public/profile-img.png";
+import profileImage from "@/public/me-bg400.png";
 
 const Logo = () => {
   return (

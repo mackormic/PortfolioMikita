@@ -54,7 +54,7 @@ const CategoryPage = ({ params }) => {
           #{params.slug}
         </h1>
         <span className="mt-2 inline-block">
-          Discover more categories and expand your knowledge!
+          Откройте для себя больше категорий и расширьте свои знания!
         </span>
       </div>
       <Categories categories={allCategories} currentSlug={params.slug} />
