@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: "Статьи про коррупцию | ISO 37001",
+  title: "Статьи про коррупцию и не только | ISO 37001",
   author: "MikitaFiasko",
   headerTitle: "Blog about corruption",
   description: "A blog created with Next.js, Tailwind.css and contentlayer.",
@@ -15,6 +15,8 @@ const siteMetadata = {
   youtube: "https://youtube.com",
   linkedin: "https://www.linkedin.com/in/mikita-f-96380a256/",
   dribbble: "https://dribbble.com/MikitaF",
+  instagram: "https://youtube.com",
+  telegram: "https://youtube.com",
   locale: "en-US",
 };
 

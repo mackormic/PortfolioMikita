@@ -10,6 +10,8 @@ import {
   MoonIcon,
   SunIcon,
   TwitterIcon,
+  InstagramIcon,
+  TelegramIcon,
 } from "../Icons";
 import siteMetadata from "@/src/utils/siteMetadata";
 import { useThemeSwitch } from "../Hooks/useThemeSwitch";
@@ -128,6 +130,12 @@ const Header = () => {
         </button>
       </nav>
       <div className="hidden sm:flex items-center justify-between">
+        <a href={siteMetadata.telegram} className="inline-block w-6 h-6 mr-3">
+          <TelegramIcon className="hover:scale-125 transition-all ease duration-200  dark:fill-light" />
+        </a>
+        <a href={siteMetadata.instagram} className="inline-block w-6 h-6 mr-4">
+          <InstagramIcon className="hover:scale-125 transition-all ease duration-200  dark:fill-light" />
+        </a>
         <a href={siteMetadata.linkedin} className="inline-block w-6 h-6 mr-4">
           <LinkedinIcon className="hover:scale-125 transition-all ease duration-200" />
         </a>
@@ -137,9 +145,9 @@ const Header = () => {
         <a href={siteMetadata.github} className="inline-block w-6 h-6 mr-4">
           <GithubIcon className="hover:scale-125 transition-all ease duration-200 dark:fill-light" />
         </a>
-        <a href={siteMetadata.github} className="inline-block w-6 h-6 mr-4">
+        {/* <a href={siteMetadata.github} className="inline-block w-6 h-6 mr-4">
           <DribbbleIcon className="hover:scale-125 transition-all ease duration-200" />
-        </a>
+        </a> */}
       </div>
     </header>
   );
