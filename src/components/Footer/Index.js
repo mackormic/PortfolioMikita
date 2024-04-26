@@ -46,10 +46,10 @@ const Footer = () => {
       </form> */}
       <div className="flex items-center mt-8">
         <a href={siteMetadata.telegram} className="inline-block w-6 h-6 mr-3">
-          <TelegramIcon className="hover:scale-125 transition-all ease duration-200 fill-light dark:fill-dark" />
+          <TelegramIcon className="hover:scale-125 transition-all ease duration-200" />
         </a>
         <a href={siteMetadata.instagram} className="inline-block w-6 h-6 mr-4">
-          <InstagramIcon className="hover:scale-125 transition-all ease duration-200 fill-light  dark:fill-dark" />
+          <InstagramIcon className="hover:scale-125 transition-all ease duration-200" />
         </a>
         <a href={siteMetadata.linkedin} className="inline-block w-6 h-6 mr-4">
           <LinkedinIcon

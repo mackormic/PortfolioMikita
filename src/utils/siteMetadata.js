@@ -15,8 +15,9 @@ const siteMetadata = {
   youtube: "https://youtube.com",
   linkedin: "https://www.linkedin.com/in/mikita-f-96380a256/",
   dribbble: "https://dribbble.com/MikitaF",
-  instagram: "https://youtube.com",
-  telegram: "https://youtube.com",
+  instagram:
+    "https://www.instagram.com/mikitafiasko?igsh=djgycGlpcjB5bDhh&utm_source=qr",
+  telegram: "https://web.telegram.org",
   locale: "en-US",
 };
 

@@ -12,6 +12,8 @@ import {
   TwitterIcon,
   InstagramIcon,
   TelegramIcon,
+  Instagram1,
+  TelegramIcon1,
 } from "../Icons";
 import siteMetadata from "@/src/utils/siteMetadata";
 import { useThemeSwitch } from "../Hooks/useThemeSwitch";
@@ -134,7 +136,7 @@ const Header = () => {
           <TelegramIcon className="hover:scale-125 transition-all ease duration-200  dark:fill-light" />
         </a>
         <a href={siteMetadata.instagram} className="inline-block w-6 h-6 mr-4">
-          <InstagramIcon className="hover:scale-125 transition-all ease duration-200  dark:fill-light" />
+          <InstagramIcon className="hover:scale-125 transition-all ease duration-200 " />
         </a>
         <a href={siteMetadata.linkedin} className="inline-block w-6 h-6 mr-4">
           <LinkedinIcon className="hover:scale-125 transition-all ease duration-200" />
