@@ -20,7 +20,7 @@ const Skills = () => {
     text-dark dark:text-light"
     >
       <span className="font-semibold text-lg sm:text-3xl md:text-4xl text-accent dark:text-accentDark">
-        Консультирую в сфере ...
+        Актуальные темы ...
       </span>
       <ul className="flex flex-wrap mt-8 justify-center  xs:justify-start">
         {SkillList.map((skill, index) => {
