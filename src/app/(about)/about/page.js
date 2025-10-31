@@ -22,7 +22,7 @@ export default function About() {
         <Link className="!underline underline-offset-2" href="/contact">
           здесь.
         </Link>{" "}
-        И если не победим,то возглавим.
+        И если не победим,то достойно возглавим.
       </h2>
     </>
   );
