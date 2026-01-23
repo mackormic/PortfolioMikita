@@ -79,8 +79,8 @@ export default function ContactFormer() {
         focus:ring-0 placeholder:text-center placeholder:text-lg 
         border-b border-gray focus:border-gray bg-transparent"
         />
-        и я бы хотел(а) организовать в нашей компании семинар/обучение/вебинар
-        по вопросам антикоррупционной работы. Наша контактная почта{" "}
+        и у нас есть несколько вопросов по антикоррупционному законодательству.
+        Наша контактная почта{" "}
         <input
           onChange={handleOnChange}
           id="email"
@@ -103,14 +103,14 @@ export default function ContactFormer() {
         focus:ring-0 placeholder:text-center placeholder:text-lg 
         border-b border-gray focus:border-gray bg-transparent"
         />
-        А тут краткое описание планируемой встречи: <br />
+        А тут краткое описание проблемного вопроса по коррупции: <br />
         <textarea
           onChange={handleOnChange}
           id="message"
           name="message"
           required
           value={inputs.message}
-          placeholder="Тема, дата, вопросы, да все что угодно..."
+          placeholder="недавно у нас была проверка и мы попали...)))"
           className=" w-full outline-none border-0 p-0 mx-2 
         focus:ring-0  placeholder:text-lg 
         border-b border-gray focus:border-gray bg-transparent"
@@ -120,7 +120,7 @@ export default function ContactFormer() {
         py-2 sm:py-3 px-6 sm:px-8 border-2 border-solid border-dark
         dark:border-light rounded cursor-pointer"
           type="submit"
-          value="Отправить заявку"
+          value="Отправить вопрос"
           disabled={status.submitting}
         />
       </form>
